@@ -1,0 +1,55 @@
+/*---------------------fix the top logo------------------*/
+.nav li img {
+	margin-top:-10px;
+	margin-bottom:-3px;
+	}
+	
+/*---------------------down top navbar------------------*/
+.nav li {
+	margin-top:4px;
+	}
+
+/*----------------------tasks style---------------------*/
+.bs-docs-example {
+  position: relative;
+  margin: 0px 0 10px;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+/* Echo out a label for the example */
+.bs-docs-example:after {
+  content: "任务细节";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  width:60%;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+/*------------------table span3------------------------*/
+table .span3 {
+  width: 285px;
+}
+/*-------------------drop and drag-----------------------*/
+.sort_placeholder
+{
+  border-radius: 5px;
+  background-color: #E3E3E3;
+}
+/*-------------------modal body------------------------*/
+.modal-body {
+  max-height: 450px;
+}
