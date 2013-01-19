@@ -1,5 +1,5 @@
 
-<!-- this is a nav file -->
+<!-- global nav file -->
 
 <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
