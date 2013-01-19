@@ -1,5 +1,9 @@
 <h1>Welcome to CodeIgniter To Do List Application!</h1>
  
+<?= anchor('todo/add/', 'Add new to do', array('title' => 'Add new to do!')); ?>
+ 
+<p><?= $flash_message ?></p>
+ 
 <h2>Next</h2>
 <?php if($todo_list): ?>
 <ul>
