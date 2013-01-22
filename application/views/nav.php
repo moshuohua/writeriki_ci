@@ -12,25 +12,25 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="#">Home</a>
+                <a href="./index.html">Home</a>
               </li>
               <li class="">
-                <a href="#">Project</a>
+                <a href="./getting-started.html">Get started</a>
               </li>
               <li class="">
-                <a href="#">Who</a>
+                <a href="./scaffolding.html">Scaffolding</a>
               </li>
               <li class="">
-                <a href="#">What</a>
-              </li>
-              <li class="">
-                <a href="#">Which</a>
+                <a href="./base-css.html">Base CSS</a>
               </li>
               <li class="active">
-                <a href="#">When</a>
+                <a href="./components.html">Components</a>
               </li>
               <li class="">
-                <a href="#">How</a>
+                <a href="./javascript.html">JavaScript</a>
+              </li>
+              <li class="">
+                <a href="./customize.html">Customize</a>
               </li>
             </ul>
           </div>
