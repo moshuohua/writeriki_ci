@@ -20,5 +20,11 @@
 
     <script src="<?=base_url();?>assets/js/application.js"></script>
 
+    <script type="text/javascript">
+       $(function () {
+           $("[rel='tooltip']").tooltip();
+       });
+    </script>
+
   </body>
 </html>
