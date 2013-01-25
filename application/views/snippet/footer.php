@@ -20,4 +20,5 @@
 
     <script src="<?=base_url();?>assets/js/application.js"></script>
 
-</body>
+  </body>
+</html>

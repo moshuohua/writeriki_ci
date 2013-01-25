@@ -14,9 +14,10 @@ class Home extends CI_Controller {
 
     public function index()
     {
-      $this->load->view('templates/header');
-  		$this->load->view('nav');
-  		$this->load->view('templates/footer');
+      	$this->load->view('snippet/header');
+  		  $this->load->view('snippet/nav');
+      	$this->load->view('project/home');
+  		  $this->load->view('snippet/footer');
     }
 
 }

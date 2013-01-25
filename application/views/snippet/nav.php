@@ -1,4 +1,3 @@
-
 <!-- global nav file -->
 <!--  navbar-inverse -->
 
