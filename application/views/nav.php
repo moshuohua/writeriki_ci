@@ -1,7 +1,8 @@
 
 <!-- global nav file -->
+<!--  navbar-inverse -->
 
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -14,23 +15,23 @@
               <li class="">
                 <a href="./index.html">Home</a>
               </li>
-              <li class="">
-                <a href="./getting-started.html">Get started</a>
-              </li>
-              <li class="">
-                <a href="./scaffolding.html">Scaffolding</a>
-              </li>
-              <li class="">
-                <a href="./base-css.html">Base CSS</a>
-              </li>
               <li class="active">
-                <a href="./components.html">Components</a>
+                <a href="#">Project</a>
               </li>
               <li class="">
-                <a href="./javascript.html">JavaScript</a>
+                <a href="#">Discussion</a>
               </li>
               <li class="">
-                <a href="./customize.html">Customize</a>
+                <a href="#">Process</a>
+              </li>
+              <li class="">
+                <a href="#">Calender</a>
+              </li>
+              <li class="">
+                <a href="#">Files</a>
+              </li>
+              <li class="">
+                <a href="#">Team</a>
               </li>
             </ul>
           </div>
