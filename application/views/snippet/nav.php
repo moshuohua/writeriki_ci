@@ -1,7 +1,7 @@
 <!-- global nav file -->
 <!--  navbar-inverse -->
 
-<div class="navbar navbar-fixed-top">
+<div class="navbar navbar-fixed-top navbar-googlenav">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -34,6 +34,12 @@
               </li>
             </ul>
           </div>
+          <form class="form-search">
+  <div class="navbar-search input-append pull-right">
+    <input type="text" class="span3 search-query">
+    <button type="submit" class="btn btn-success">Search</button>
+  </div>
+</form>
         </div>
       </div>
 </div>
