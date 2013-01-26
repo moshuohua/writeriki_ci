@@ -29,17 +29,23 @@
               <li class="">
                 <a href="#">Files</a>
               </li>
+              <li class="" style="border-right:1px solid #ddd;">
+                <a href="#">Team </a>
+              </li>
               <li class="">
-                <a href="#">Team</a>
+                <a href="#">sign in</a>
+              </li>
+              <li class="">
+                <a href="#">sign up</a>
               </li>
             </ul>
           </div>
           <form class="form-search">
-  <div class="navbar-search input-append pull-right">
-    <input type="text" class="span3 search-query">
-    <button type="submit" class="btn btn-success">Search</button>
-  </div>
-</form>
+            <div class="navbar-search input-append pull-right">
+              <input type="text" class="span3 search-query">
+              <button type="submit" class="btn btn-success">Search</button>
+            </div>
+          </form>
         </div>
       </div>
 </div>
