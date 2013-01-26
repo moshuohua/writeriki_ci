@@ -33,10 +33,10 @@
                 <a href="#">Team </a>
               </li>
               <li class="">
-                <a href="#">sign in</a>
+                <a href="#"> sign in</a>
               </li>
               <li class="">
-                <a href="#">sign up</a>
+                <a href="#"> sign up</a>
               </li>
             </ul>
           </div>
@@ -49,3 +49,4 @@
         </div>
       </div>
 </div>
+<hr>
