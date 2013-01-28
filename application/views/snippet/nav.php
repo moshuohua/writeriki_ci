@@ -42,7 +42,7 @@
           </div>
           <form class="form-search">
             <div class="navbar-search input-append pull-right">
-              <input type="text" class="span3 search-query">
+              <input type="text" class="span2 search-query">
               <button type="submit" class="btn btn-success">Search</button>
             </div>
           </form>

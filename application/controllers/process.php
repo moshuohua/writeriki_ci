@@ -4,7 +4,7 @@
 * Controllername
 */
 
-class Doc extends CI_Controller {
+class Process extends CI_Controller {
 
 	public function __construct()
 	{
@@ -14,10 +14,8 @@ class Doc extends CI_Controller {
 
     public function index()
     {
-      	$this->load->view('snippet/header');
-  		  $this->load->view('snippet/nav');
-      	$this->load->view('project/docs');
-  		  $this->load->view('snippet/footer');
+      	$this->load->view('process/home');
+        $this->load->view('snippet/nav.php');
     }
 
 }

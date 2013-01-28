@@ -19,6 +19,7 @@
     <script src="<?=base_url();?>assets/js/select2.min.js"></script>
 
     <script src="<?=base_url();?>assets/js/application.js"></script>
+    
 
 <!-- // this is for the bootstrap tooltip ------------------------------- -->
     <script type="text/javascript">
