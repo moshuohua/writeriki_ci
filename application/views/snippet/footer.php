@@ -21,7 +21,7 @@
     <script src="<?=base_url();?>assets/js/application.js"></script>
     
 
-<!-- // this is for the bootstrap tooltip ------------------------------- -->
+<!-- -- this is for the bootstrap tooltip ------------------------------- -->
     <script type="text/javascript">
        $(function () {
            $("[rel='tooltip']").tooltip();
