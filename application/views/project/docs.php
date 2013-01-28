@@ -1,4 +1,5 @@
 
+<!-- --------------the project panel------------- -->
 <div class="container">
 	<div class="row">
 		<div class="span12 inline">
@@ -12,8 +13,12 @@
         </div>
       </div>
   	</div>
+
+<!-- --------------the main part-------------- -->
     <div class="span12">
       <hr>
     </div>
+
+    
   </div>
 </div>
