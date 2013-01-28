@@ -18,16 +18,13 @@
                 <a href="#">Project</a>
               </li>
               <li class="">
-                <a href="#">Discussion</a>
-              </li>
-              <li class="">
                 <a href="#">Process</a>
               </li>
               <li class="">
                 <a href="#">Calender</a>
               </li>
               <li class="">
-                <a href="#">Files</a>
+                <a href="#">Everything</a>
               </li>
               <li class="" style="border-right:1px solid #ddd;">
                 <a href="#">Team </a>
@@ -42,7 +39,7 @@
           </div>
           <form class="form-search">
             <div class="navbar-search input-append pull-right">
-              <input type="text" class="span2 search-query">
+              <input type="text" class="span3 search-query">
               <button type="submit" class="btn btn-success">Search</button>
             </div>
           </form>

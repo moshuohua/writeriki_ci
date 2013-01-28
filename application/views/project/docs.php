@@ -15,13 +15,27 @@
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">hello</a></li>
-            <li><a href="#">hello</a></li>
-            <li><a href="#">hello</a></li>
+            <li><a href="#">Everyone's documents</a></li>
+            <li><a href="#">Create by you</a></li>
+            <li><a href="#">Mentioning you</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Create Private Document</a></li>
+            <li><a href="#">Create Public Document</a></li>
           </ul>
         </li>
-        <li class="">
-          <a href="#">Issue</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Issues&nbsp;
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Everyone's issues</a></li>
+            <li><a href="#">Create by you</a></li>
+            <li><a href="#">Assigned to you</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Create My Own Issue</a></li>
+            <li><a href="#">Create Open Issue</a></li>
+          </ul>
         </li>
         <li class="">
           <a href="#">Member</a>
@@ -33,20 +47,11 @@
           <a href="#">Setting</a>
         </li>
       </ul>
-      <!-- <div class="inline">
-        <div class="btn-group" data-toggle="buttons-radio" style="margin-left:271px !important;">
-          <a href="#" class="btn btn-primary" rel="popover" title="Project one" data-placement="bottom" data-content="And here's some amazing content. It's very engaging. right?And here's some amazing content. It's very engaging. right?And here's some amazing content. It's very engaging. right?And here's some amazing content. It's very engaging. right?"><i class="icon-leaf icon-white"></i> Project</a>
-          <button class="btn btn-primary"><i class="icon-file icon-white"></i> Docs</button>
-          <button class="btn btn-primary"><i class="icon-list icon-white"></i> Issue</button>
-          <button class="btn btn-primary"><i class="icon-user icon-white"></i> Team</button>
-          <button class="btn btn-primary"><i class="icon-time icon-white"></i> Date</button>
-        </div>
-      </div> -->
   	</div>
 
 <!-- --------------the main part-------------- -->
     <div class="span12">
-
+      <hr style="margin-top:0px;">
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
