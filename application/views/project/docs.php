@@ -3,7 +3,11 @@
 <div class="container">
 	<div class="row">
 		<div class="span12 inline">
-      <a href="#" class="btn" rel="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on right">Popover on right</a>
+      <a href="#" class="btn btn-danger" rel="popover" data-placement="bottom"
+        data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+        title="The description">
+            PROJECT ONE
+      </a>
       <ul class="nav nav-pills pull-right" style="margin-bottom:22px !important;">
         <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
