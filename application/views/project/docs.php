@@ -9,9 +9,9 @@
             PROJECT ONE
       </a>
       <ul class="nav nav-pills pull-right" style="margin-bottom:22px !important;">
-        <li class="active dropdown">
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            Document&nbsp;
+            Docs&nbsp;
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
@@ -23,9 +23,9 @@
             <li><a href="#">Create Public Document</a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            Issues&nbsp;
+            Issue&nbsp;
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
@@ -35,6 +35,31 @@
             <li class="divider"></li>
             <li><a href="#">Create My Own Issue</a></li>
             <li><a href="#">Create Open Issue</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            File&nbsp;
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All Files</a></li>
+            <li><a href="#">My Collection</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Upload New File</a></li>
+            <li><a href="#">Add Download Link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Discuss&nbsp;
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">All Discussion</a></li>
+            <li><a href="#">My Discussion</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Start New Discussion</a></li>
           </ul>
         </li>
         <li class="">
