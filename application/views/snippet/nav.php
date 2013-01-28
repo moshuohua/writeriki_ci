@@ -12,7 +12,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="./index.html">Home</a>
+                <a href="home">Home</a>
               </li>
               <li class="active">
                 <a href="#">Project</a>
