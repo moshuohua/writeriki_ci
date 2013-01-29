@@ -4,7 +4,7 @@
 * Controllername
 */
 
-class Single_Doc extends CI_Controller {
+class Single_New_Doc extends CI_Controller {
 
 	public function __construct()
 	{
@@ -17,7 +17,7 @@ class Single_Doc extends CI_Controller {
       	$this->load->view('snippet/header');
   		  $this->load->view('snippet/nav');
         $this->load->view('snippet/panel');
-      	$this->load->view('project/singel_docs');
+      	$this->load->view('project/single_new_docs');
   		  $this->load->view('snippet/footer');
     }
 
