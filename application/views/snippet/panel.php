@@ -13,7 +13,7 @@
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Everyone's documents</a></li>
+            <li><a href="single_open_doc">Everyone's documents</a></li>
             <li><a href="#">Create by you</a></li>
             <li><a href="#">Mentioning you</a></li>
             <li class="divider"></li>
