@@ -16,6 +16,7 @@ class Doc extends CI_Controller {
     {
       	$this->load->view('snippet/header');
   		  $this->load->view('snippet/nav');
+        $this->load->view('snippet/panel');
       	$this->load->view('project/docs');
   		  $this->load->view('snippet/footer');
     }

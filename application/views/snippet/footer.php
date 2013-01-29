@@ -1,4 +1,7 @@
 
+    </div>
+</div>
+
     <script src="<?=base_url();?>assets/js/jquery.js"></script>
     <script src="<?=base_url();?>assets/js/bootstrap-transition.js"></script>
     <script src="<?=base_url();?>assets/js/bootstrap-alert.js"></script>
@@ -20,7 +23,6 @@
 
     <script src="<?=base_url();?>assets/js/application.js"></script>
     
-
 <!-- -- this is for the bootstrap tooltip ------------------------------- -->
     <script type="text/javascript">
        $(function () {
