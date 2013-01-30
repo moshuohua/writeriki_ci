@@ -1,4 +1,17 @@
 
+<!-- --------------- add quick useful bar ------------- -->
+    <div class="navbar navbar-fixed-bottom navbar-googlenav">
+      <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav">
+              <li class="">
+                <a href="home">Quick Panel</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+</div>
+
     </div>
 </div>
 

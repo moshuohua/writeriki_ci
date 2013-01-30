@@ -7,8 +7,9 @@
             PROJECT ONE
       </a>
       <ul class="nav nav-pills pull-right" style="margin-bottom:22px !important;">
-        <li class="dropdown">
+        <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-briefcase"></i>
             Docs&nbsp;
             <b class="caret"></b>
           </a>
@@ -21,8 +22,9 @@
             <li><a href="single_new_doc">Create Public Document</a></li>
           </ul>
         </li>
-        <li class="active dropdown">
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-list"></i>
             Issue&nbsp;
             <b class="caret"></b>
           </a>
@@ -37,6 +39,7 @@
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-file"></i>
             File&nbsp;
             <b class="caret"></b>
           </a>
@@ -50,6 +53,7 @@
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="icon-comment"></i>
             Discuss&nbsp;
             <b class="caret"></b>
           </a>
@@ -61,13 +65,22 @@
           </ul>
         </li>
         <li class="">
-          <a href="#">Member</a>
+          <a href="#">
+            <i class="icon-user"></i>
+            Member
+          </a>
         </li>
         <li class="">
-          <a href="#">Date</a>
+          <a href="#">
+            <i class="icon-time"></i>
+            Date
+          </a>
         </li>
         <li class="">
-          <a href="#">Setting</a>
+          <a href="#">
+            <i class="icon-wrench"></i>
+            Setting
+          </a>
         </li>
       </ul>
   	</div>
