@@ -1,7 +1,6 @@
 
 <!-- --------------the main part-------------- -->
     <div class="span12">
-      <hr style="margin-top:0px;">
       <table class="table table-bordered table-hover">
         <thead>
           <tr>
