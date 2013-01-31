@@ -85,4 +85,3 @@
       </ul>
   	</div>
 
-<hr style="margin-top:0px;">
