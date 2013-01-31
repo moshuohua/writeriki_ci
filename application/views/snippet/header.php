@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="<?=base_url();?>assets/css/docs.css" type="text/css" media="screen"/>
   <link rel="stylesheet" href="<?=base_url();?>assets/css/google-bootstrap.css" type="text/css" media="screen"/>
   <link rel="stylesheet" href="<?=base_url();?>assets/css/select2.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="<?=base_url();?>assets/css/bootstrap-wysihtml5.css" type="text/css" media="screen">
   <link rel="stylesheet" href="<?=base_url();?>assets/css/custom.css" type="text/css" media="screen"/>
   <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
