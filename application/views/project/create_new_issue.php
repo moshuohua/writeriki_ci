@@ -7,24 +7,68 @@
         <div class="control-group">
           <label class="control-label" for="inputEmail">Titel</label>
           <div class="controls">
-            <input type="text" id="inputTitle" placeholder="Title">
+            <input type="text" id="inputTitle" placeholder="Title" style="width:565px !important;">
           </div>
         </div>
         <div class="control-group">
-          <label class="control-label" for="inputPassword">Password</label>
+          <label for="inputDescription" class="control-label">Description</label>
           <div class="controls">
-            <input type="password" id="inputPassword" placeholder="Password">
+            <textarea class="textarea" placeholder="Enter text ..." style="width: 570px; height: 200px"></textarea>
           </div>
         </div>
-        <textarea class="textarea" placeholder="Enter text ..." style="width: 810px; height: 200px"></textarea>
-
-        <select class="g-select span3" style="display:none;">
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option>5</option>
-</select>
+        <div class="control-group">
+          <label for="Assignee" class="control-label">Assignee</label>
+          <div class="controls">
+            <select class="g-select" style="width:300px !important;">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="Kind" class="control-label">Kind</label>
+          <div class="controls">
+            <select class="g-select" style="width:300px !important;">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="Priority" class="control-label">Priority</label>
+          <div class="controls">
+            <select class="g-select" style="width:300px !important;">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="Attachments" class="control-label">Attachments</label>
+          <div class="controls">
+            <select class="g-select" style="width:300px !important;">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="Attachments" class="control-label">Attachments</label>
+          <div class="controls">
+            <input type="file" name="file" size="80">
+          </div>
+        </div>
       </form>
-
   </div>

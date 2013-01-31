@@ -23,7 +23,7 @@
 
     <script src="<?=base_url();?>assets/js/application.js"></script>
 
-    <script src="<?=base_url();?>assets/js/wysihtml5-0.3.0.js"></script> 
+    <script src="<?=base_url();?>assets/js/wysihtml5-0.3.0.min.js"></script> 
     <script src="<?=base_url();?>assets/js/bootstrap-wysihtml5.js"></script>
     
 <!-- -- this is for the bootstrap tooltip ------------------------------- -->
