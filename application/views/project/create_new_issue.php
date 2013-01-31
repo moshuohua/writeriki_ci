@@ -55,20 +55,16 @@
         <div class="control-group">
           <label for="Attachments" class="control-label">Attachments</label>
           <div class="controls">
-            <select class="g-select" style="width:300px !important;">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-        </div>
-        <div class="control-group">
-          <label for="Attachments" class="control-label">Attachments</label>
-          <div class="controls">
             <input type="file" name="file" size="80">
           </div>
         </div>
+        <div class="control-group">
+          <label for="Submiting" class="control-label"></label>
+          <div class="controls">
+           <button type="submit" class="btn btn-large btn-primary">Create Issue</button>
+           <button type="submit" class="btn btn-danger btn-small" style="margin-left:15px;">Canel</button>
+          </div>
+        </div>
+        
       </form>
   </div>
