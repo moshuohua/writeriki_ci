@@ -1,7 +1,7 @@
 <!-- global nav file -->
 <!--  navbar-inverse -->
 
-<div class="navbar navbar-fixed-top navbar-googlenav">
+<div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
