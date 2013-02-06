@@ -5,8 +5,8 @@
         <div class="container">
             <div class="btn-group pull-right" data-toggle="buttons-radio">
               <a class="btn btn-primary todolist" href="#" data-placement='top' title="Popover Title"><i class="icon-leaf icon-white"></i> Todo</a>
-              <a class="btn btn-primary" href="#"><i class="icon-envelope icon-white"></i> Mail</a>
-              <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
+              <a class="btn btn-primary mail" href="#" data-placement='top' title="Popover Title"><i class="icon-envelope icon-white"></i> Mail</a>
+              <a class="btn btn-primary notice" href="#" data-placement='top' title="Popover Title"><i class="icon-bell icon-white"></i> Notice</a>
             </div>
         </div>
       </div>
@@ -17,6 +17,14 @@
 
 <!-- ---------------todolist popover---------------- -->
     <div id="todolist_content" style="display:none;">
+      <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
+    </div>
+<!-- ---------------mail popover---------------- -->
+    <div id="mail_content" style="display:none;">
+      <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
+    </div>
+<!-- ---------------notice popover---------------- -->
+    <div id="notice_content" style="display:none;">
       <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
     </div>
 
@@ -48,10 +56,32 @@
         $('.todolist').popover({ 
           html : true,
           content: function() {
-      return $('#todolist_content').html();
-    }
-  });
-});
+          return $('#todolist_content').html();
+          }
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.mail').popover({ 
+          html : true,
+          content: function() {
+          return $('#mail_content').html();
+          }
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.notice').popover({ 
+          html : true,
+          content: function() {
+          return $('#notice_content').html();
+          }
+        });
+      });
     </script>
 
   </body>
