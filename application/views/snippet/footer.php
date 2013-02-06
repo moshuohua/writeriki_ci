@@ -1,13 +1,13 @@
 
 <!-- --------------- add quick useful bar ------------- -->
-    <div class="navbar navbar-fixed-bottom navbar-googlenav">
+    <div class="navbar navbar-fixed-bottom">
       <div class="navbar-inner">
         <div class="container">
-            <ul class="nav">
-              <li class="">
-                <a href="home">Quick Panel</a>
-              </li>
-            </ul>
+            <div class="btn-group pull-right">
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-leaf"></i> Todo</a>
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-envelope"></i> Mail</a>
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-bell"></i> Notice</a>
+            </div>
         </div>
       </div>
     </div>
