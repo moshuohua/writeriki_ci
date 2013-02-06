@@ -1,8 +1,7 @@
 <!-- --------------the project panel------------- -->
 
 		<div class="span12 inline">
-      <a href="#" class="btn btn-danger" rel="popover" data-placement="right"
-        data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+      <a href="#" class="btn btn-danger" rel="popover" data-placement="bottom" data-content="the project"
         title="The description">
             PROJECT ONE
       </a>
