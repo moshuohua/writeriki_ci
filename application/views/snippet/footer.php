@@ -4,9 +4,9 @@
       <div class="navbar-inner">
         <div class="container">
             <div class="btn-group pull-right">
-              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-leaf"></i> Todo</a>
-              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-envelope"></i> Mail</a>
-              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-bell"></i> Notice</a>
+              <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-leaf icon-white"></i> Todo</a>
+              <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-envelope icon-white"></i> Mail</a>
+              <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-bell icon-white"></i> Notice</a>
             </div>
         </div>
       </div>

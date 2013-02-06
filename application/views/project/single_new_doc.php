@@ -33,7 +33,7 @@
 
     <div class="span12">
       <hr style="margin-top:0px;">
-      <div class="btn-group">
+      <div class="btn-group" data-toggle="buttons-radio">
         <input class="btn btn-primary" onclick="createEditor();" type="button" value="Show edit style">
         <input class="btn btn-primary" onclick="removeEditor();" type="button" value="Show the doc">
       </div>
