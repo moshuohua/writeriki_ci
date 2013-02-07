@@ -17,8 +17,7 @@
             <li><a href="#">Create by you</a></li>
             <li><a href="#">Mentioning you</a></li>
             <li class="divider"></li>
-            <li><a href="#">Create Fixed Document</a></li>
-            <li><a href="single_new_doc">Create Public Document</a></li>
+            <li><a href="single_new_doc">Create Document</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -32,7 +31,6 @@
             <li><a href="#">Create by you</a></li>
             <li><a href="#">Assigned to you</a></li>
             <li class="divider"></li>
-            <li><a href="#">Create My Own Issue</a></li>
             <li><a href="#">Create Open Issue</a></li>
           </ul>
         </li>
