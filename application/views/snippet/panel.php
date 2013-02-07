@@ -13,70 +13,78 @@
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="single_open_doc">所有文档</a></li>
-            <li><a href="#">Create by you</a></li>
-            <li><a href="#">Mentioning you</a></li>
             <li class="divider"></li>
-            <li><a href="single_new_doc">Create Document</a></li>
+            <li><a href="single_open_doc">所有文档</a></li>
+            <li><a href="#">由你创建的文档</a></li>
+            <li><a href="#">提到的文档</a></li>
+            <li class="divider"></li>
+            <li><a href="single_new_doc">创建新文档</a></li>
+            <li class="divider"></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <i class="icon-list"></i>
-            Issue&nbsp;
+            事务&nbsp;
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Everyone's issues</a></li>
-            <li><a href="#">Create by you</a></li>
-            <li><a href="#">Assigned to you</a></li>
             <li class="divider"></li>
-            <li><a href="#">Create Open Issue</a></li>
+            <li><a href="#">查看所有事务</a></li>
+            <li><a href="#">由你创建的事务</a></li>
+            <li><a href="#">与你有关的事务</a></li>
+            <li class="divider"></li>
+            <li><a href="#">创建新事务</a></li>
+            <li class="divider"></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <i class="icon-file"></i>
-            File&nbsp;
+            文件&nbsp;
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">All Files</a></li>
-            <li><a href="#">My Collection</a></li>
             <li class="divider"></li>
-            <li><a href="#">Upload New File</a></li>
-            <li><a href="#">Add Download Link</a></li>
+            <li><a href="#">浏览所有文件</a></li>
+            <li><a href="#">我的收藏</a></li>
+            <li class="divider"></li>
+            <li><a href="#">上传新文件</a></li>
+            <li><a href="#">添加站外下载链接</a></li>
+            <li class="divider"></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <i class="icon-comment"></i>
-            Discuss&nbsp;
+            讨论&nbsp;
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">All Discussion</a></li>
-            <li><a href="#">My Discussion</a></li>
             <li class="divider"></li>
-            <li><a href="#">Start New Discussion</a></li>
+            <li><a href="#">所有讨论</a></li>
+            <li><a href="#">我参见的讨论</a></li>
+            <li class="divider"></li>
+            <li><a href="#">发起新讨论</a></li>
+            <li class="divider"></li>
           </ul>
         </li>
         <li class="">
           <a href="#">
             <i class="icon-user"></i>
-            Member
+            成员
           </a>
         </li>
         <li class="">
           <a href="#">
             <i class="icon-time"></i>
-            Date
+            计划
           </a>
         </li>
         <li class="">
           <a href="#">
             <i class="icon-wrench"></i>
-            Setting
+            设置
           </a>
         </li>
       </ul>

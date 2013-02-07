@@ -5,8 +5,8 @@
         <div class="container">
             <div class="btn-group pull-right">
               <a class="btn btn-primary todolist" href="#" data-placement='top' title="Popover Title"><i class="icon-leaf icon-white"></i> Todo</a>
-              <a class="btn btn-primary mail" href="#" data-placement='top' title="Popover Title"><i class="icon-envelope icon-white"></i> Mail</a>
-              <a class="btn btn-primary notice" href="#" data-placement='top' title="Popover Title"><i class="icon-bell icon-white"></i> Notice</a>
+              <a class="btn btn-primary mail" href="#" data-placement='top' title="Popover Title"><i class="icon-envelope icon-white"></i> 私信</a>
+              <a class="btn btn-primary notice" href="#" data-placement='top' title="Popover Title"><i class="icon-bell icon-white"></i> 消息</a>
             </div>
         </div>
       </div>
