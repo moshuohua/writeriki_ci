@@ -24,7 +24,7 @@
       <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
     </div>
 <!-- ---------------notice popover---------------- -->
-    <div id="notice_content" style="display:none;">
+    <div id="notice_content" style="display:none;width:396px;">
       <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
     </div>
 
@@ -59,28 +59,18 @@
           return $('#todolist_content').html();
           }
         });
-      });
-    </script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
         $('.mail').popover({ 
           html : true,
           content: function() {
           return $('#mail_content').html();
           }
         });
-      });
-    </script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
         $('.notice').popover({ 
           html : true,
           content: function() {
           return $('#notice_content').html();
           }
-        });
+        }); 
       });
     </script>
 
