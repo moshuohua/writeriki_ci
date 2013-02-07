@@ -1,4 +1,4 @@
-<!-- --------------the project panel------------- -->
+﻿<!-- --------------the project panel------------- -->
 
 		<div class="span12 inline">
       <a href="#" class="btn btn-danger" rel="popover" data-placement="bottom" data-content="the project"
@@ -9,11 +9,11 @@
         <li class="active dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <i class="icon-briefcase"></i>
-            Docs&nbsp;
+            文档&nbsp;
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="single_open_doc">Everyone's documents</a></li>
+            <li><a href="single_open_doc">所有文档</a></li>
             <li><a href="#">Create by you</a></li>
             <li><a href="#">Mentioning you</a></li>
             <li class="divider"></li>

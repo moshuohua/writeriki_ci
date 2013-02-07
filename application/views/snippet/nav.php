@@ -1,4 +1,4 @@
-<!-- global nav file -->
+﻿<!-- global nav file -->
 <!--  navbar-inverse -->
 
 <div class="navbar navbar-fixed-top">
@@ -12,38 +12,38 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="">
-                <a href="home">Home</a>
+                <a href="home">首页</a>
               </li>
               <li class="active">
-                <a href="#">Project</a>
+                <a href="#">项目</a>
               </li>
               <li class="">
-                <a href="#">Process</a>
+                <a href="#">进程</a>
               </li>
               <li class="">
-                <a href="#">Calender</a>
+                <a href="#">日历</a>
               </li>
               <li class="">
-                <a href="#">Everything</a>
+                <a href="#">综合</a>
               </li>
               <li class="" style="border-right:1px solid #ddd;">
-                <a href="#">Team </a>
+                <a href="#">团队 </a>
               </li>
               <li class="">
-                <a href="#"> sign in</a>
+                <a href="#"> 注册</a>
               </li>
               <li class="">
-                <a href="#"> sign up</a>
+                <a href="#"> 登陆</a>
               </li>
             </ul>
           </div>
           <form class="form-search">
             <div class="navbar-search input-append pull-right">
               <input type="text" class="span3 search-query">
-              <button type="submit" class="btn btn-success">Search</button>
+              <button type="submit" class="btn btn-success">搜索</button>
             </div>
           </form>
         </div>
       </div>
 </div>
-<hr>
+
