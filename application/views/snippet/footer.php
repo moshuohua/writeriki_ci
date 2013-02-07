@@ -12,12 +12,18 @@
       </div>
     </div>
 
-    </div>
-</div>
-
 <!-- ---------------todolist popover---------------- -->
     <div id="todolist_content" style="display:none;">
-      <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
+      <div class="scrollable" style="height: 300px; overflow-y: auto">
+        <h4>Overflowing text to show optional scrollbar</h4>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+
+Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      </div>
     </div>
 <!-- ---------------mail popover---------------- -->
     <div id="mail_content" style="display:none;">
@@ -27,6 +33,11 @@
     <div id="notice_content" style="display:none;">
       <a class="btn btn-primary" href="#"><i class="icon-bell icon-white"></i> Notice</a>
     </div>
+
+<!-- end container -->
+    </div>
+</div>
+
 
 <!-- ----------------the js files----------------- -->
     <script src="<?=base_url();?>assets/js/jquery.js"></script>
@@ -55,7 +66,6 @@
       $(document).ready(function(){
         $('.todolist').popover({ 
           html : true,
-          width : '396px',
           content: function() {
           return $('#todolist_content').html();
           }
