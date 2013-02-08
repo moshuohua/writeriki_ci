@@ -1,5 +1,4 @@
-﻿
-<!-- --------------- add quick useful bar ------------- -->
+﻿<!-- --------------- add quick useful bar ------------- -->
     <div class="navbar navbar-fixed-bottom">
       <div class="navbar-inner">
         <div class="container">
@@ -47,6 +46,8 @@
 
     <script src="<?=base_url();?>assets/js/wysihtml5-0.3.0.min.js"></script> 
     <script src="<?=base_url();?>assets/js/bootstrap-wysihtml5.js"></script>
+
+    <script src="<?=base_url();?>assets/js/jquery.masonry.min.js"></script>
     
 <!-- -- this is for the bootstrap tooltip ------------------------------- -->
     <script type="text/javascript">
@@ -79,6 +80,29 @@
           return $('#notice_content').html();
           }
         }); 
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function(){
+        // masonry plugin call
+        $('#timebox').masonry({itemSelector : '.item'});
+  
+        //injecting arrow points
+        function Arrow_Points(){
+          var s = $("#timebox").find(".item");
+          $.each(s,function(i,obj){
+          var posLeft = $(obj).css("left");
+          if(posLeft == "0px"){
+           html = "<span class='rightCorner'></span>";
+            $(obj).prepend(html);
+          } else {
+            html = "<span class='leftCorner'></span>";
+            $(obj).prepend(html);
+          }
+          });
+        }
+        Arrow_Points();
       });
     </script>
 

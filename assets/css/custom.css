@@ -1,13 +1,87 @@
+/*------popover style------*/
 .popover-content {
   padding: 4px 4px 1px 8px;
 }
 .popover {
     width:300px;
 }
+
+/*------scroll height------*/
 .scrollheight {
 	height: 420px; 
 	overflow-y: auto
 }
+
+/*------dropmenu------*/
 .dropdown-menu {
 	padding: 0px 0px 0px 0px;
 }
+
+/*------timeline style named timebox------*/
+ul,ol {
+	list-style: none outside none;
+}
+#timebox {
+	width: 860px;
+	margin: 0 auto;
+}
+.item {
+	width: 408px;
+	margin: 20px 10px 10px;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #b4bbcd;
+	min-height: 50px;
+	text-align: justify;
+	word-wrap: break-word;
+	border-radius: 2px;
+}
+.inner {
+	padding: 10px;
+}
+.timeline_container {
+	width: 16px;
+	text-align: center;
+	margin: 0 auto;
+	cursor: pointer;
+	display: block;
+}
+.timeline{
+	margin: 0 auto;
+	background-color: black;
+	display: block;
+	float: left;
+	height: 100%;
+	left: 428px;
+	margin-top: 10px;
+	position: absolute;
+	width: 4px;
+}
+.rightCorner {
+	background-image: url("../img/right.png");
+	display: block;
+	height: 15px;
+	margin-left: 408px;
+	margin-top: 8px;
+	padding: 0;
+	vertical-align: top;
+	width: 13px;
+	z-index: 2;
+	position: absolute;
+}
+.leftCorner {
+	background-image:url("../img/left.png");
+	display: block;
+	height: 15px;
+	width: 13px;
+	margin-left: -13px;
+	margin-top: 8px;
+	position: absolute;
+	z-index: 2;
+}
+
+
+
+
+
+
