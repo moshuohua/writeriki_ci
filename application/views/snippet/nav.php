@@ -1,5 +1,4 @@
 ﻿<!-- global nav file -->
-<!--  navbar-inverse -->
 
 <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -18,7 +17,7 @@
                 <a href="#">项目</a>
               </li>
               <li class="">
-                <a href="#">进程</a>
+                <a href="process">进程</a>
               </li>
               <li class="">
                 <a href="#">日历</a>
