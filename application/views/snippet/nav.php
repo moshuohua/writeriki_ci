@@ -27,7 +27,7 @@
                 <a href="#">团队 </a>
               </li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">资源<b class="caret"></b></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">资源 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li class="divider"></li>
                   <li><a href="#">查看所有文档</a></li>
