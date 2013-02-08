@@ -1,4 +1,4 @@
-<script src="<?=base_url();?>assets/ckeditor/ckeditor.js"></script>
+﻿<script src="<?=base_url();?>assets/ckeditor/ckeditor.js"></script>
 
 <script>
 

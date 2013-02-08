@@ -16,7 +16,7 @@ class Issue extends CI_Controller {
     {
     	$this->load->view('snippet/header');
   		$this->load->view('snippet/nav');
-      	$this->load->view('project/issues');
+      $this->load->view('project/issues');
   		$this->load->view('snippet/footer');
     }
 

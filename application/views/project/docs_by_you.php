@@ -1,9 +1,8 @@
-﻿
+
 <!-- --------------the main part-------------- -->
     <div class="span12">
       <hr style="margin-top:0px;">
-      
-      <h2>所有文档</h2>
+      <h2>你创建的文档</h2>
       <hr>
       <table class="table table-bordered table-hover">
         <thead>
@@ -11,7 +10,6 @@
             <th class="span1"></th>
             <th class="span3">NAME</th>
             <th class="span7">DESCRIPTION</th>
-            <th>CREATOR</th>
           </tr>
         </thead>
         <tbody>
@@ -19,13 +17,11 @@
             <td>1</td>
             <td>Mark</td>
             <td>And here's some amazing content. </td>
-            <td>@mdo</td>
           </tr>
            <tr>
             <td>2</td>
             <td>Jacob</td>
             <td>Thornton</td>
-            <td>@fat</td>
           </tr>
         </tbody>
       </table>

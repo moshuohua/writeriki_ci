@@ -2,5 +2,9 @@
   padding: 4px 4px 1px 8px;
 }
 .popover {
-    width:310px;
+    width:300px;
+}
+.scrollheight {
+	height: 420px; 
+	overflow-y: auto
 }

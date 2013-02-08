@@ -14,9 +14,9 @@
           </a>
           <ul class="dropdown-menu">
             <li class="divider"></li>
-            <li><a href="single_open_doc">所有文档</a></li>
-            <li><a href="#">由你创建的文档</a></li>
-            <li><a href="#">提到的文档</a></li>
+            <li><a href="doc">所有文档</a></li>
+            <li><a href="docs_by_you">你创建的文档</a></li>
+            <li><a href="#">提到你的文档</a></li>
             <li class="divider"></li>
             <li><a href="single_new_doc">创建新文档</a></li>
             <li class="divider"></li>
@@ -34,7 +34,7 @@
             <li><a href="#">由你创建的事务</a></li>
             <li><a href="#">与你有关的事务</a></li>
             <li class="divider"></li>
-            <li><a href="#">创建新事务</a></li>
+            <li><a href="create_new_issue">创建新事务</a></li>
             <li class="divider"></li>
           </ul>
         </li>
@@ -47,7 +47,7 @@
           <ul class="dropdown-menu">
             <li class="divider"></li>
             <li><a href="#">浏览所有文件</a></li>
-            <li><a href="#">我的收藏</a></li>
+            <li><a href="#">我收藏的文件</a></li>
             <li class="divider"></li>
             <li><a href="#">上传新文件</a></li>
             <li><a href="#">添加站外下载链接</a></li>
@@ -62,7 +62,7 @@
           </a>
           <ul class="dropdown-menu">
             <li class="divider"></li>
-            <li><a href="#">所有讨论</a></li>
+            <li><a href="#">查看所有讨论</a></li>
             <li><a href="#">我参见的讨论</a></li>
             <li class="divider"></li>
             <li><a href="#">发起新讨论</a></li>
@@ -89,4 +89,3 @@
         </li>
       </ul>
   	</div>
-

@@ -4,7 +4,7 @@
       <div class="navbar-inner">
         <div class="container">
             <div class="btn-group pull-right">
-              <a class="btn btn-primary todolist" href="#" data-placement='top' title="Popover Title"><i class="icon-leaf icon-white"></i> Todo</a>
+              <a class="btn btn-primary todolist" href="#" data-placement='top' title="Todolist"><i class="icon-leaf icon-white"></i> Todo</a>
               <a class="btn btn-primary mail" href="#" data-placement='top' title="Popover Title"><i class="icon-envelope icon-white"></i> 私信</a>
               <a class="btn btn-primary notice" href="#" data-placement='top' title="Popover Title"><i class="icon-bell icon-white"></i> 消息</a>
             </div>
@@ -14,19 +14,19 @@
 
 <!-- ---------------todolist popover---------------- -->
     <div id="todolist_content" style="display:none;">
-      <div class="scrollable" style="height: 376px; overflow-y: auto">
+      <div class="scrollable scrollheight">
         <h4>Overflowing text to show optional scrollbar</h4>
       </div>
     </div>
 <!-- ---------------mail popover---------------- -->
     <div id="mail_content" style="display:none;">
-      <div class="scrollable" style="height: 376px; overflow-y: auto">
+      <div class="scrollable scrollheight">
         <h4>Overflowing text to show optional scrollbar</h4>
       </div>    
     </div>
 <!-- ---------------notice popover---------------- -->
     <div id="notice_content" style="display:none;">
-      <div class="scrollable" style="height: 376px; overflow-y: auto">
+      <div class="scrollable scrollheight">
         <h4>Overflowing text to show optional scrollbar</h4>
       </div>
     </div>
