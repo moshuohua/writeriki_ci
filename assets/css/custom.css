@@ -29,8 +29,9 @@ ul,ol {
 	margin: 0 auto;
 }
 .item {
-	width: 400px;
+	width: 384px;
 	margin: 10px 23px 10px;
+	padding: 4px 8px;
 	float: left;
 	background-color: #fff;
 	border: 2px solid #e5e5e5;
@@ -68,7 +69,7 @@ ul,ol {
 	position: absolute;
 	width: 8px;
 }
-.rightCorner {
+/*.rightCorner {
 	background-image: url("../img/right.png");
 	display: block;
 	height: 29px;
@@ -89,7 +90,7 @@ ul,ol {
 	margin-top: 8px;
 	position: absolute;
 	z-index: 2;
-}
+}*/
 
 
 
