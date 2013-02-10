@@ -27,38 +27,50 @@
                   <input class="input-block-level" id="focusedInput" type="text" style="margin-bottom:10px;" value="添加新任务">
                 </form>
                 <div class="alert fade in alert-primary todo-alert-margin">
-                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
                   <strong>Holy guacamole!</strong>
                 </div>
                 <div class="alert fade in todo-alert-margin">
-                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
                   <strong>Holy guacamole!</strong>
                 </div>
                 <div class="alert fade in todo-alert-margin">
-                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
                   <strong>Holy guacamole!</strong>
                 </div>
                 <div class="alert fade in todo-alert-margin">
-                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
                   <strong>Holy guacamole!</strong>
                 </div>
                 <div class="alert fade in todo-alert-margin">
-                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
                   <strong>Holy guacamole!</strong>
                 </div>
                 <hr>
                 <p>
-                  <a href="" class="btn">修改名称</a>
-                  <a href="" class="btn">删除分类</a>
+                  <a href="" class="btn btn-success">修改名称</a>
+                  <a href="" class="btn btn-danger">删除分类</a>
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <button class="btn btn-large btn-block btn-danger" type="button" style="padding:9px !important;margin-top:-14px;">
-          添加新分类
-        </button>
 
+        <div class="accordion" id="accordion2">
+          <div class="accordion-group">
+            <button class="btn btn-large btn-block btn-danger" type="button" data-toggle="collapse" data-target="#add_new_class" style="padding:9px !important;margin-top:-14px;">
+            添加新分类
+            </button>
+            <div id="add_new_class" class="accordion-body collapse">
+              <div class="accordion-inner">
+                <form class="navbar-form">
+                  <input class="input-block-level" id="focusedInput" type="text" style="margin-bottom:10px;" value="添加新任务">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- end collapse -->
       </div>
     </div>
 <!-- ---------------mail popover---------------- -->

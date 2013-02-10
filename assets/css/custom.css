@@ -11,11 +11,21 @@
 .todo-alert-margin {
 	margin-bottom: 4px;
 }
+.alert .close {
+	top:0px;
+	right: -25px;
+	line-height: 10px;
+}
+button.close {
+	padding: 1px 2px 1px 2px;
+	border: 1px dashed;
+}
 
 /*------scroll height------*/
 .scrollheight {
 	height: 420px; 
-	overflow-y: auto
+	overflow-y: auto;
+	padding-right:5px;
 }
 
 /*------dropmenu------*/
