@@ -24,7 +24,7 @@
             <div id="demo" class="accordion-body collapse">
               <div class="accordion-inner">
                 <form class="navbar-form">
-                  <input class="input-block-level" id="focusedInput" type="text" style="margin-bottom:10px;" value="添加新任务">
+                  <input class="input-block-level" id="focusedInput" type="text" style="margin-bottom:10px;" value="输入待办任务">
                 </form>
                 <div class="alert fade in alert-primary todo-alert-margin">
                   <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="alert fade in todo-alert-margin">
                   <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
-                  <strong>Holy guacamole!</strong>
+                  现在的一个想法是 使用restkit的model map 来做Model的解析 从api取得数据之后转化为数据Model, 然后把这些数据的操作全部封装到一个类中
                 </div>
                 <div class="alert fade in todo-alert-margin">
                   <button type="button" class="close" data-dismiss="alert"><i class="icon-ok"></i></button>
@@ -64,12 +64,13 @@
             <div id="add_new_class" class="accordion-body collapse">
               <div class="accordion-inner">
                 <form class="navbar-form">
-                  <input class="input-block-level" id="focusedInput" type="text" style="margin-bottom:10px;" value="添加新任务">
+                  <input class="input-block-level" id="focusedInput" type="text" style="margin-bottom:10px;" value="输入新分类">
                 </form>
               </div>
             </div>
           </div>
         </div>
+        
       <!-- end collapse -->
       </div>
     </div>
