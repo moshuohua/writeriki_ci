@@ -34,20 +34,13 @@ button.close {
 }
 
 /*------timeline style named timebox------*/
-ul,ol {
-	list-style: none outside none;
-}
-#timebox {
-	width: 900px;
-	margin: 0 auto;
-}
-.item {
+/*.item {
 	width: 384px;
-	margin: 10px 23px 10px;
+	margin: 10px 24px 10px;
 	padding: 4px 8px;
 	float: left;
 	background-color: #fff;
-	border: 2px solid #e5e5e5;
+	border: 1px solid #e5e5e5;
 	min-height: 50px;
 	text-align: justify;
 	word-wrap: break-word;
@@ -60,53 +53,8 @@ ul,ol {
     -webkit-background-clip: padding-box;
         -moz-background-clip: padding;
           	background-clip: padding-box;
-}
-/*.inner {
-	padding: 10px;
 }*/
-.timeline_container {
-	width: 16px;
-	text-align: center;
-	margin: 0 auto;
-	cursor: pointer;
-	display: block;
+li.media {
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 12px;
 }
-.timeline{
-	margin: 0 auto;
-	background-color: #4d90fe;
-	display: block;
-	float: left;
-	height: 100%;
-	left: 446px;
-	margin-top: 8px;
-	position: absolute;
-	width: 8px;
-}
-/*.rightCorner {
-	background-image: url("../img/right.png");
-	display: block;
-	height: 29px;
-	margin-left: 400px;
-	margin-top: 8px;
-	padding: 0;
-	vertical-align: top;
-	width: 29px;
-	z-index: 2;
-	position: absolute;
-}
-.leftCorner {
-	background-image:url("../img/left.png");
-	display: block;
-	height: 29px;
-	width: 29px;
-	margin-left: -29px;
-	margin-top: 8px;
-	position: absolute;
-	z-index: 2;
-}*/
-
-
-
-
-
-
